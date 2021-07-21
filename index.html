@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script src="script.js" defer></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap" rel="stylesheet">   <title>Cellular Automata</title>
+</head>
+<body>
+  <main>
+    <div id="advanced-settings">
+      <div id="advanced-title">
+        <p>Advanced Settings</p>
+      </div>
+    </div>
+    <div id="primary-flex">
+      <div id='options'>
+        <div id="rules">
+          <div class="rule-toggle" id="config1-toggle"><p>111</p></div>
+          <div class="rule-toggle" id="config2-toggle"><p>110</p></div>
+          <div class="rule-toggle" id="config3-toggle"><p>101</p></div>
+          <div class="rule-toggle" id="config4-toggle"><p>100</p></div>
+          <div class="rule-toggle" id="config5-toggle"><p>011</p></div>
+          <div class="rule-toggle" id="config6-toggle"><p>010</p></div>
+          <div class="rule-toggle" id="config7-toggle"><p>001</p></div>
+          <div class="rule-toggle" id="config8-toggle"><p>000</p></div>
+        </div>
+        <div id="buttons">
+          <div class="button" id="start">
+            <p>Start</p>
+          </div>
+          <div class="button" id="stop">
+            <p>Stop</p>
+          </div>
+          <div class="button" id="reset">
+            <p>Reset Grid</p>
+          </div>
+        </div>
+      </div>
+      <div id='grid'></div>
+    </div>
+    <div id="favorites-bucket">
+      <div id="favorites-title">
+        <p>Favorites</p>
+      </div>
+      <div id="favorites-list"></div>
+      <div id="create-new-favorite">
+        <input type="text" placeholder="Save As Favorite">
+        <div><p>+</p></div>
+      </div>
+    </div>
+  </main>
+</body>
+</html>
