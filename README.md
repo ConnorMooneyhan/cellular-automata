@@ -1,5 +1,7 @@
 # Cellular Automata
 This app was created for the purpose of investigating cellular automata in an interactive way.
+## Note
+This is not a responsively-sized app; you will need to make your screen large enough to fit the app or it won't look right.
 
 # Upcoming features include (but are not limited to!):
 * Adjustable grid size
