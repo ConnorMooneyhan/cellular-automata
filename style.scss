@@ -34,6 +34,13 @@ main {
     border-bottom: 1px solid black;
     border-radius: $main-border-radius $main-border-radius 0 0;
   }
+  #settings {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    flex-grow: 1;
+  }
 }
 
 #primary-flex {

@@ -1,7 +1,4 @@
-// IDEAS
-// Make a favorites bucket
-// Click to choose starting squares
-
+// Const Variables
 const grid = document.querySelector('#grid');
 const startButton = document.querySelector('#start');
 const stopButton = document.querySelector('#stop');
@@ -15,6 +12,7 @@ const favoriteAddButton = document.querySelector('#create-new-favorite div');
 const newFavoriteInput = document.querySelector('#create-new-favorite input');
 const capitalize = (str) => str[0].toUpperCase() + str.slice(1);
 
+// Non-constant variables
 let size = 35; // Grid side lengths
 let timer = 0; // Will be assigned a setTimeout call to draw()
 let speed = 0; // Milliseconds input for setTimeout
